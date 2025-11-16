@@ -55,7 +55,7 @@
         else if (to == "inr") result = inUsd * inrToUsd
         else if (to == "try") result = inUsd * tryToUsd
         else {
-            println("❗ Не знаю '$to'")
+            println("Не знаю такой валюты :( | Попробуйте: usd, eur, rub...")
             continue
         }
 
